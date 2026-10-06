@@ -1,5 +1,9 @@
 package homework.h02;
 
-// advanced
-// https://leetcode.com/problems/divide-two-integers/
-public class T2 {}
+// https://leetcode.com/problems/add-digits/
+public class T2 {
+    public int addDigits(int num) {
+        if (num == 0) return 0;
+        return num % 9 == 0 ? 9 : num % 9;
+    }
+}
